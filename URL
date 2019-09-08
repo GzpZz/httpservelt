@@ -1,0 +1,8 @@
+资源访问路径： 
+http://localhost:端口/项目应用名/资源名
+
+http://localhost/baidu/a.html  =>  /baidu/a.html
+
+http://localhost/a.html   ==>    GET  /ROOT/a.html
+
+http://localhost/test/a/b/c     ===>  GET  /test

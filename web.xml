@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webapps>
+	<servlet>
+		<url>/test</url>
+		<className>web.servlet.TestServlet</className>
+	</servlet>
+	<servlet>
+		<url>/demo</url>
+		<className>web.servlet.DemoSetvlet</className>
+	</servlet>
+
+	<filter>
+		<url>/test</url>
+		<className>web.filter.EncodingFilter</className>
+		<param>
+			<paramName>encoding</paramName>
+			<paramValue>utf-8</paramValue>
+		</param>
+	</filter>
+	
+	<filter>
+		<url>/test</url>
+		<className>web.filter.TestFilter</className>
+	</filter>
+
+</webapps>
